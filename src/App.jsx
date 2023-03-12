@@ -1,11 +1,11 @@
 import "./App.scss";
 import SmaillGame from "./SmaillGame";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, HashRouter } from "react-router-dom";
 import Home from "./Home";
 import Big from "./Big/Big";
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <Routes>
           <Route element={<Home />} path="/" />
@@ -13,7 +13,7 @@ function App() {
           <Route element={<Big />} path="/hard" />
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
