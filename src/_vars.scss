@@ -1,0 +1,39 @@
+$ScissorsGradient: hsl(40, 84%, 53%);
+$PaperGradient: hsl(230, 89%, 65%);
+$RockGradient: hsl(349, 70%, 56%);
+$LizardGradient: hsl(261, 72%, 63%);
+$Cyan: hsl(189, 58%, 57%);
+$DarkText: hsl(229, 25%, 31%);
+$ScoreText: hsl(229, 64%, 46%);
+$HeaderOutline: hsl(217, 16%, 45%);
+$RadialGradient: linear-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+
+$breack-up: (
+  "small": "800px",
+  "medium": "1164px",
+);
+$breack-down: (
+  "medium": "799px",
+  "large": "1163px",
+);
+
+@mixin breack_up($size) {
+  @media (min-width: map-get($breack-up, $size)) {
+    @content;
+  }
+}
+@mixin breack_down($size) {
+  @media (max-width: map-get($breack-down, $size)) {
+    @content;
+  }
+}
+.dn_for_large {
+  @include breack_up(medium) {
+    display: none !important;
+  }
+}
+.dn_for_small {
+  @include breack_down(large) {
+    display: none !important;
+  }
+}

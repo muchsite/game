@@ -1,0 +1,14 @@
+@use "./vars" as *;
+.home_cont {
+  display: flex;
+  align-items: center;
+  margin-top: 10rem;
+  gap: 5rem;
+}
+.link_cont {
+  img {
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
