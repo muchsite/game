@@ -5,15 +5,15 @@ import Home from "./Home";
 import Big from "./Big/Big";
 function App() {
   return (
-    <HashRouter>
-      <div className="App">
+    <div className="App">
+      <HashRouter>
         <Routes>
           <Route element={<Home />} path="/" />
           <Route element={<SmaillGame />} path="/simple" />
           <Route element={<Big />} path="/hard" />
         </Routes>
-      </div>
-    </HashRouter>
+      </HashRouter>
+    </div>
   );
 }
 
