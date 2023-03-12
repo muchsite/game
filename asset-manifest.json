@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/game/static/css/main.24e422b4.css",
-    "main.js": "/game/static/js/main.9872149b.js",
+    "main.js": "/game/static/js/main.ea04c446.js",
     "static/media/image-rules-bonus.svg": "/game/static/media/image-rules-bonus.513320fbf32ba9e4a81fba903a77b85f.svg",
     "static/media/image-rules.svg": "/game/static/media/image-rules.258b753fb6284dc8ae00c5b2fa7938c0.svg",
     "static/media/icon-lizard.svg": "/game/static/media/icon-lizard.0f83914cca1adc9454d1bdceb17610b0.svg",
@@ -14,10 +14,10 @@
     "static/media/bg-pentagon.svg": "/game/static/media/bg-pentagon.1ad6d36532b75eb7d82cabe6e8d92aef.svg",
     "static/media/bg-triangle.svg": "/game/static/media/bg-triangle.77c6ca418d3751d8f71789234314a8b9.svg",
     "main.24e422b4.css.map": "/game/static/css/main.24e422b4.css.map",
-    "main.9872149b.js.map": "/game/static/js/main.9872149b.js.map"
+    "main.ea04c446.js.map": "/game/static/js/main.ea04c446.js.map"
   },
   "entrypoints": [
     "static/css/main.24e422b4.css",
-    "static/js/main.9872149b.js"
+    "static/js/main.ea04c446.js"
   ]
 }
