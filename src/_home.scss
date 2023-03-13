@@ -4,6 +4,9 @@
   align-items: center;
   margin-top: 10rem;
   gap: 5rem;
+  @include breack_down(large) {
+    flex-direction: column;
+  }
 }
 .link_cont {
   img {
