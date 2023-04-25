@@ -16,6 +16,11 @@ function Home() {
           <img src={rules2} alt="" />
         </Link>
       </div>
+      <div className="link_cont">
+        <Link to="/third">
+          <img src={rules2} alt="" />
+        </Link>
+      </div>
     </div>
   );
 }

@@ -264,3 +264,13 @@
 .close {
   top: -200%;
 }
+
+.lootie_cont {
+  .lottie_item {
+  }
+  .lottie_item2 {
+    transform: scaleX(-1);
+    svg {
+    }
+  }
+}
